@@ -49,4 +49,6 @@ plt.annotate(r'$^{40}$K',xy=(1461,100),xytext=(1461,500),arrowprops={}, ha='cent
 plt.xlim([0,2000])
 plt.ylim([2,4700])
 plt.ylabel('Counts')
-plt.xlabel('E [keV]');
+plt.xlabel('E [keV]')
+
+plt.show()
