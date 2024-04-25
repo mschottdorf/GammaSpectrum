@@ -51,4 +51,6 @@ plt.ylim([2,4700])
 plt.ylabel('Counts')
 plt.xlabel('E [keV]')
 
+plt.savefig("./plot.svg")
+
 plt.show()
